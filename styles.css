@@ -1,0 +1,9 @@
+img {
+    width: 200px;
+} /* change the width of all the images on the page */
+
+body{
+    text-align: center; /* center everything in the body*/
+    font-family: "Arial" /*change the text to Arial*/
+} 
+
