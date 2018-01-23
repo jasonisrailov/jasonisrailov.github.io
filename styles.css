@@ -1,10 +1,11 @@
 img {
-    width: 220px;
-    height: 225px;
-} /* change the width of all the images on the page */
+    width: 350px;
+    height: 245px;
+} /* changes the width of all the images on the page */
 
 body{
     text-align: center; /* center everything in the body*/
-    font-family: "Arial" /*change the text to Arial*/
+    font-family: "Verdana" /*change all the text to Verdana.*/
+    /*Good fonts to use: Helvetica, Trebuchet MS, Arial Black, Courier, and Palatino.*/
 } 
 
