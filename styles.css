@@ -4,7 +4,8 @@ img {
 } /* changes the width of all the images on the page */
 
 body{
-    background-color: lightblue;
+    background: linear-gradient(red, blue);
+    /* background-color: lightblue;*/
     text-align: center; /* center everything in the body*/
     font-family: "Futura" /*change all the text to Futura.*/
     /*Good fonts to use: Verdana, Helvetica, Trebuchet MS, Arial Black, Courier, and Palatino.*/
