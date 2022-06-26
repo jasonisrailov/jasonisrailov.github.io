@@ -1,9 +1,9 @@
 
 /* changes the width of all the images on the page */
-/* img {
+img {
     width: 350px;
     height: 245px;
-}  */
+} 
 
 body{
     /* background: linear-gradient(red, blue); */
