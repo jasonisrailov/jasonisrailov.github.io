@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Import the stylesheets -->
+        <link rel="stylesheet" href="../static/main/css/header.css">
+        <link rel="stylesheet" href="../static/main/css/navbar.css">
+        <link rel="stylesheet" href="../static/main/css/main.css">
+        <link rel="stylesheet" href="../static/main/css/footer.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap">
+        <title>Projects - Jason Israilov's Personal Website</title>
+        <link rel="icon" href="../static/main/images/favicons/jason-favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header> 
+            <img src="../static/main/images/detroit-banner.jpeg" loading="lazy" alt="Detroit skyline from Canadian side of the river.">
+        </header>
+        <div class="nav-container">
+            <nav class="navbar">
+                <div id="assignment-name">Jason Israilov Personal Website/div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/home.html" class="nav-links">Home</a></li>
+                    <li><a href="/projects.html" class="nav-links">Projects</a></li>
+                    <li><a href="https://jasonisrailov.com/resume-2" class="nav-links">Resume</a></li>
+                    <li id="linkedin-icon"><a href="https://linkedin.com/in/jasonisrailov" class="nav-links"><img src="../static/main/images/social-linkedin.png" loading="lazy" alt="LinkedIn Logo that links to Jason Israilov's LinkedIn"></a></li>
+                    <li><a href="https://linkedin.com/in/jasonisrailov" class="hidden-nav-links">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script src="../static/piano/js/piano.js"></script>
+        
+        <!-- Here is my page's main content -->
+        <main>
+            <!-- The description & instructions of the project page in this div -->
+            <div class="proj-pg-description">
+                <h2>Below is a list of projects I worked on in CSE 477:</h2>
+                <p>Click an image, or hyperlink in the description to learn more.</p>
+            </div>
+
+            <hr>
+            
+            <div class ="wrapper">
+                <div class="box-left"><a href="/piano.html"><img src="../static/main/images/piano.jpeg" loading="lazy" alt="The Shigeru Kawai Grand Piano, the Premier Piano of Japan."></a></div>
+                <div class="box-right" id="piano-text">
+                    <h2>JavaScript Piano</h2>
+                    <p>As part of my first Homework assignment in CSE477, I developed an interactive piano built in pure HTML, CSS and Javascript. This tool (in addition to my webpage) 
+                        highlight my ability to build beautiful and mobile-friendly front-end applications. <a href="/piano.html">Click here to see, and play!</a></p>
+                </div>
+            </div>
+            <hr>        
+            <div class="fact-more">
+                <h2>More coming soon!!</h2>
+            </div>
+        </main>
+        <footer>
+            <p>© Copyright 2023 Jason Israilov. All rights reserved.</p>
+        </footer>
+    </body>
+</html> 

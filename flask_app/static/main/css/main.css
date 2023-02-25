@@ -1,0 +1,82 @@
+/* If the max width is under 650px, it overwrites the content above to what is below */
+@media screen and (max-width:650px) {
+    .wrapper {
+        grid-template-columns: 1fr !important;
+        column-gap: 5%;
+        justify-content: center;
+        overflow: hidden; 
+        min-height:2000px;
+    }
+    /* .box-right {
+        overflow: hidden;
+    } */
+    
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+    height: 50vh;
+    width: 80vw;
+    overflow: hidden;    
+}
+.box-left {
+    border: 5px solid #000000;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+ 
+.box-left img {
+    object-fit:cover;
+    object-position: center;
+    height: 100%;
+}
+
+.box-right {
+    padding: 1rem; 
+    overflow: auto;
+    margin-bottom: 1rem;
+    color:#000000;
+    line-height: 1.5;
+}
+
+#piano-text {
+    margin:auto;
+    text-align: justify;
+}
+
+.box-right a {
+    color: #4583ef;
+    text-decoration: underline;
+}
+
+
+.fact-more {
+    padding: 5rem;
+    text-align: center;
+    
+}
+
+/* Making the font responsive */
+h1 {
+    font-size: calc(1em +5vw);
+}
+p {
+    font-size: calc(1em +2vw);
+}
+
+
+.initial-name  {
+    font-size: calc(8px +.25em);
+}
+
+.proj-pg-description {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
